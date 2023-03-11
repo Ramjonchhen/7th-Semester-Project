@@ -6,12 +6,12 @@ h1 {
     display: flex;
     justify-content: center;
     position: relative;
-Top:190px;
+Top:-4px;
 color: #f5f5f5;
-left: -138px;
+left: -238px;
 
 font-family: 'Roboto', sans-serif;
-font-size: 64px;
+font-size: 40px;
 font-weight: 700;
 line-height: 75px;
 letter-spacing: 0em;
@@ -22,9 +22,9 @@ hr {
     position: relative;
     display: flex;
     justify-content: center;
-width: 984px;
-top: 156px;
-left: 10px;
+    width: 841px;
+    top: -37px;
+    left: -44px;
 
 }
  ul {
@@ -46,10 +46,10 @@ a {
     align-items: center;
     text-indent: 20px; 
     padding: 10px;
-  line-height: 0.8;
+  line-height: 0.4;
     border-radius: 5px;
     text-decoration: none;
-
+  
     color:#f5f5f5;
     text-align: left;
     cursor: pointer;
@@ -58,19 +58,19 @@ a {
     margin-left: -194px;
 }
 #project-links li:nth-of-type(2) a{
-    margin-left: -164px;
+    margin-left: -169px;
 }
 
 #project-links li:nth-of-type(3) a{
-    margin-left: -92px;
+    margin-left: -113px;
 }
 
 #project-links li:nth-of-type(4) a{
-    margin-left: -127px;
+    margin-left: -150px;
 }
 
 #project-links li:nth-of-type(5) a{
-    margin-left: 18px;
+    margin-left: -43px;
 }
 
 
@@ -82,8 +82,10 @@ display: flex;
 justify-content: center;
 align-items: center;
 position: relative;
-Top:159px;
-left: -258px;
+Top:-28px;
+left: -227px;
 flex-direction: column;
-font-size: 27px;
+font-size: 21px;
+font-family: Arial, Helvetica, sans-serif;
+
 }
