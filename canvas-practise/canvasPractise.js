@@ -4,9 +4,6 @@ canvas.height = 500;
 
 const ctx = canvas.getContext("2d");
 
-
-
-
 // x and y axis for translating points
 
 // x-axis
