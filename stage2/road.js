@@ -45,7 +45,9 @@ class Road {
     }
 
     ctx.setLineDash([]);
+    console.log("main border array is: ",this.borders);
     this.borders.forEach( (border) => {
+        console.log("border in the for loop :",border);
         ctx.beginPath();
         ctx.moveTo(border[0].x,border[0].y);
         ctx.lineTo(border[1].x,border[1].y);

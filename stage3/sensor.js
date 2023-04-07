@@ -67,6 +67,7 @@ class Sensor {
     this.rays.forEach((rayArr) => {
       let end = rayArr[1];
 
+      // as using the forEach loop to find the array index finding it and storing it in i
       let i = this.rays.findIndex((elem) => elem === rayArr);
       if(this.readings[i]) {
         end=this.readings[i];

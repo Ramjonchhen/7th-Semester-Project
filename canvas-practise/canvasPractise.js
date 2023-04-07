@@ -38,7 +38,8 @@ ctx.fillStyle ="red";
 ctx.fillRect(-15,-25,30,50)
 
 // rotating the rectangle
-ctx.beginPath();
 ctx.rotate(-0.5);
+
+ctx.beginPath();
 ctx.fillStyle ="pink";
 ctx.fillRect(-15,-25,30,50)
