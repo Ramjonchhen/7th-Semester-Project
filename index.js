@@ -4,7 +4,8 @@
     "Stage 2: Drawing The Road", 
     "Stage 3: Adding Sensor to the Car", 
     "Stage 4: Segment Intersection ", 
-    "Stage 5: Implementing Collision Detection"
+    "Stage 5: Implementing Collision Detection",
+    "Stage 6: Adding Traffic to the Road",
   ];
 
 
