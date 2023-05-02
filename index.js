@@ -9,6 +9,7 @@ let projectNames = [
   "Stage 7: Coding The Neural Network",
   "Stage 8: Visualizing the Neural Network",
   "Stage 9: Optimizing the Neural Network",
+  "Stage 10: Fine Tuning the Environment"
 ];
 
 // function to display the project names as links
