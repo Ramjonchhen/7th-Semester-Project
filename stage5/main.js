@@ -10,7 +10,7 @@ animate();
 function animate() {
     car.update(road.borders);
     canvas.height = window.innerHeight;
-
+    // console.log("car object is: ",car);
     // trying to animate the car is moving;
     ctx.save();
     ctx.translate(0,-car.y+canvas.height*0.7);

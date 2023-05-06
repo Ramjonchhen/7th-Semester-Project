@@ -18,7 +18,7 @@ if(localStorage.getItem("bestBrain")) {
     bestCar.brain = JSON.parse(
         localStorage.getItem("bestBrain")
     );
-
+ 
     for(let i=0; i<cars.length; i++) {
         cars[i].brain = JSON.parse(
             localStorage.getItem("bestBrain")
@@ -70,6 +70,7 @@ function generateCars(N) {
 }
 
 function animate() {
+    console.log("neural network level is: ",cars[0].brain.levels);
     for(let i=0; i<traffic.length; i++) {
         traffic[i].update(road.borders,[]);
     }

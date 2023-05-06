@@ -1,4 +1,3 @@
-
 body{
     background-color: #187185;
 }
@@ -71,6 +70,21 @@ a {
 
 #project-links li:nth-of-type(5) a{
     margin-left: -43px;
+}
+#project-links li:nth-of-type(6) a{
+    margin-left: -104px;
+}
+#project-links li:nth-of-type(7) a{
+    margin-left: -80px;
+}
+#project-links li:nth-of-type(8) a{
+    margin-left: -55px;
+}
+#project-links li:nth-of-type(9) a{
+    margin-left: -55px;
+}
+#project-links li:nth-of-type(10) a{
+    margin-left: -55px;
 }
 
 
