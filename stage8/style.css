@@ -12,3 +12,10 @@ body{
 #networkCanvas{
     background: black;
 }
+.first-stage{
+    display: flex;
+    flex-direction: row;
+}
+.canvas-stages{
+    display: flex;
+}

@@ -96,10 +96,55 @@ display: flex;
 justify-content: center;
 align-items: center;
 position: relative;
-Top:-28px;
+Top:-23px;
 left: -227px;
 flex-direction: column;
 font-size: 21px;
 font-family: Arial, Helvetica, sans-serif;
+
+}
+.home-page
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+.project-demostration{
+    margin-left: 90px;
+}
+.Train-test{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -314px;
+}
+
+.Train-test h1 {
+    font-size: 32px;
+    margin-left: -10px;
+    color: white;
+    margin-top: -41px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.Train-test a {
+    margin-left: -563px;
+    font-size: 26px;
+}
+
+.margin-top{
+    margin-top: -20px;
+    color: #f2eeee;
+    margin-bottom: 37px;
+    font-size: 32px;
+    margin-left: -84px;
+
+}
+.project-demostration h2{
+    font-size: 32px;
+    margin-left: -10px;
+    color: white;
+    margin-top: -41px;
 
 }
