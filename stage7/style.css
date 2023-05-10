@@ -5,6 +5,17 @@ body{
     text-align: center;
 }
 
-#myCanvas{
+#carCanvas{
     background: lightgray;
+}
+
+#networkCanvas{
+    background: black;
+}
+.first-stage{
+    display: flex;
+    flex-direction: row;
+}
+.canvas-stages{
+    display: flex;
 }

@@ -3,13 +3,12 @@ let projectNames = [
   "Stage 1: Moving The Car",
   "Stage 2: Drawing The Road",
   "Stage 3: Adding Sensor to the Car",
-  "Stage 4: Segment Intersection ",
-  "Stage 5: Implementing Collision Detection",
-  "Stage 6: Adding Traffic to the Road",
-  "Stage 7: Coding The Neural Network",
-  "Stage 8: Visualizing the Neural Network",
-  "Stage 9: Optimizing the Neural Network",
-  "Stage 10: Fine Tuning the Environment"
+  "Stage 4: Implementing Collision Detection",
+  "Stage 5: Adding Traffic to the Road",
+  "Stage 6: Coding The Neural Network",
+  "Stage 7: Visualizing the Neural Network",
+  "Stage 8: Optimizing the Neural Network",
+  "Stage 9: Fine Tuning the Environment"
 ];
 
 // function to display the project names as links
