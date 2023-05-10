@@ -26,7 +26,7 @@ class NeuralNetwork{
         return outputs;
     }
 
-    static  mutate(network,amount=1) {
+    static  mutate(network,amount=0.5) {
         network.levels.forEach(
             level => {
                 for(let i=0; i<level.biases.length; i++) {

@@ -23,8 +23,6 @@ function getIntersection(A,B,C,D){
 }
 
 function polysIntersect(poly1,poly2) {
-    console.log("poly1 is: ",poly1);
-    console.log("poly2 is: ",poly2);
     for(let i= 0; i<poly1.length; i++) {
         for(let j=0; j<poly2.length; j++) {
             const touch = getIntersection(

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../stage1/style.css">
     <link rel="stylesheet" href="../stage2/style.css">
+    <link rel="stylesheet" href="../stage8/style.css">
 </head>
 
 <body>
@@ -22,8 +23,8 @@
 
             <div class="prev-stage">
                 <h1>
-                    <a href="http://127.0.0.1:5500/stage7/index.html">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                    <a href="../stage7/index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill="white"
                             class="bi bi-arrow-left-short" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
                                 d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z" />
@@ -35,15 +36,23 @@
 
         </div>
 
+
         <div class="canvas-stages">
+
             <canvas id="carCanvas"></canvas>
+            <div id="verticalButtons">
+                <button onclick="save()">💾</button>
+                <button onclick="discard()">🗑️</button>
+            </div>
             <canvas id="networkCanvas"></canvas>
+
         </div>
+
 
         <div class="next-stage">
             <h1>
-                <a href="http://127.0.0.1:5500/stage9/index.html"> <svg
-                        xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                <a href="../stage9/index.html"> <svg
+                        xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill="white"
                         class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
                             d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
@@ -52,8 +61,9 @@
         </div>
 
 
-        
+
     </div>
+
     <script src="visualizer.js"></script>
     <script src="network.js"></script>
     <script src="sensor.js"></script>

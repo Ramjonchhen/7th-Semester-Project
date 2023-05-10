@@ -29,3 +29,6 @@ button:hover{
 #carCanvas{
     background:lightgray;
 }
+.canvas-stages{
+    display: flex;
+}
