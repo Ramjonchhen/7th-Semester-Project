@@ -19,3 +19,9 @@ body{
 .canvas-stages{
     display: flex;
 }
+
+
+.next-stage {
+
+    left: 165px !important;
+}
