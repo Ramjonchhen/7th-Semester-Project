@@ -1,65 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Self-driving car </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="../stage1/style.css">
-    <link rel="stylesheet" href="../stage2/style.css">
-    <link rel="stylesheet" href="../stage8/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Self-driving car</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../stage1/style.css" />
+    <link rel="stylesheet" href="../stage2/style.css" />
+    <link rel="stylesheet" href="../stage8/style.css" />
+  </head>
 
-
-    <div class="first-stage">
-        <div class="first-stage-description">
-            <h1>Moving the car</h1>
-            <p>this is description Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur nisi illo
-                eaque animi quo iusto. Odit, vitae voluptatibus. Similique error, numquam deleniti ratione minima itaque
-                consequuntur facere iste tenetur!</p>
-
-            <div class="prev-stage">
-                <h1>
-                    <a href="../stage8/index.html">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill="white"
-                            class="bi bi-arrow-left-short" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd"
-                                d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z" />
-                        </svg>
-                    </a>
-                </h1>
-            </div>
-
-
+  <body>
+    <div class="main-stage">
+      <div class="left">
+        <div class="desc-div">
+          <h1>Stage 9: Fine-Tuning the Environment</h1>
+          <p>
+            Previously up to stage 8, the cars were represented with a
+            rectangular shape, in stage 9 we refined the car structure where the
+            car was represented with a car look a like structure.
+          </p>
         </div>
-
-
-        <div class="canvas-stages">
-
-
-    <canvas id="carCanvas"></canvas>
-    <div id="verticalButtons">
-        <button onclick="save()">💾</button>
-        <button onclick="discard()">🗑️</button>
+        <div class="icon">
+          <h1>
+            <a href="../stage8/index.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                fill="white"
+                class="bi bi-arrow-left-short"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"
+                />
+              </svg>
+            </a>
+          </h1>
+        </div>
+      </div>
+      <div class="canvas-stage position-left">
+        <canvas id="carCanvas"></canvas>
+        <div id="verticalButtons">
+          <button onclick="save()">💾</button>
+          <button onclick="discard()">🗑️</button>
+        </div>
+        <canvas id="networkCanvas"></canvas>
+      </div>
+      <div class="right">
+        <div></div>
+        <div class="icon">
+          <h1 class="home">
+            <a href="../index.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                fill="white"
+                class="bi bi-house"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"
+                /></svg
+            ></a>
+          </h1>
+          <h1>
+            <a href="../TrainTestNetwork/index.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                fill="white"
+                class="bi bi-arrow-right-short"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                />
+              </svg>
+            </a>
+          </h1>
+        </div>
+      </div>
     </div>
-    <canvas id="networkCanvas"></canvas>
-
-
-
-
-<div class="next-stage">
-    <h1>
-        <a href="../index.html"> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-house" viewBox="0 0 16 16">
-            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
-          </svg></a>
-    </h1>
-</div>
-
-
-</div>
-
 
     <script src="visualizer.js"></script>
     <script src="network.js"></script>
@@ -69,5 +97,5 @@
     <script src="controls.js"></script>
     <script src="car.js"></script>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>

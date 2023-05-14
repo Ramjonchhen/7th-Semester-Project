@@ -25,3 +25,7 @@ body{
 
     left: 165px !important;
 }
+.position-left{
+    position: relative;
+    left: 60px;
+}
