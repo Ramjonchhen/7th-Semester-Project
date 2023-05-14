@@ -19,3 +19,13 @@ body{
 .canvas-stages{
     display: flex;
 }
+
+
+.next-stage {
+
+    left: 165px !important;
+}
+.position-left{
+    position: relative;
+    left: 60px;
+}

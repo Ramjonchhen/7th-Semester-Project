@@ -39,3 +39,6 @@ button:hover{
     background:whitesmoke;
     padding:2px;
 }
+.right{
+    flex: unset !important;
+}

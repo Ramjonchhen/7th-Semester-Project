@@ -8,58 +8,72 @@ body{
 #myCanvas{
     background: lightgray;
 }
-.first-stage{
+.main-stage{
     display: flex;
     justify-content: center;
-}
-.first-stage-description
-{
-width: 276px;
     position: relative;
-    right: 240px;
+}
+.left,.right,.canvas-stage{
+    flex: 1;
+}
+.right{
+    position: relative;
+}
+.right
+.icon .home{
+    position: absolute;
+    top: 0;
+    left: 235px;
+}
+.right
+.icon .homes{
+    position: absolute;
+    top: 0;
+    left: 320px;
+}
+
+
+
+.left,.right{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    line-height: 1.3;
+    justify-content: space-between;
 
-     
+    margin-bottom: 30px;
 }
-.first-stage-description h1{
-margin: 0;
-color: black;
-font-size: 40px;
+.left .desc-div{
+    flex: 1;    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
 }
-.first-stage-description p{
-    color: rgb(98, 97, 97);
+.left .desc-div h1{
+    text-align: left;
+    padding-left: 60px;
+
+}
+
+
+.icon
+svg{
+    border-radius: 50%;
+    background-color: rgb(56, 57, 57);
+}
+.icon
+svg:hover{
+    background-color: aquamarine;
+    fill: black;
+
+}
+.desc-div
+p{
+    padding-left: 60px;
+padding-right: 20px;
+text-align: justify;
+font-size: 20px;
+
 }
 .canvas-stage{
-    position: relative;
-    right: 87px;
-}
-
-.next-stage{
     display: flex;
-    flex-direction: column;
-    position: relative;
     justify-content: center;
-    left: 295px;
-    top: 151px;
-
 }
-.next-stage h1{
-    background-color: rgb(56, 57, 57);
-    color: white;
-    border-radius: 50%;
-}
-.next-stage h1:hover{
-    background-color: aquamarine;
-}
-.next-stage:hover .bi-arrow-right-short path {
-    fill: black;
-  }
-  svg{
-    position: relative;
-    top: 3px;
-  }
